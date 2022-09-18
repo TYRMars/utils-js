@@ -21,7 +21,7 @@ const getDistance = function (start, stop) {
  * moveX: 盒子的x移动距离
  * moveY: 盒子的y移动距离
  */
-	const limitBorder = (innerDOM, outerDOM, moveX, moveY, multiple) => {
+const limitBorder = (innerDOM, outerDOM, moveX, moveY, multiple) => {
 	let { clientWidth: innerWidth, clientHeight: innerHeight, offsetLeft: innerLeft, offsetTop: innerTop } = innerDOM
 	let { clientWidth: outerWidth, clientHeight: outerHeight } = outerDOM
 	let transX
